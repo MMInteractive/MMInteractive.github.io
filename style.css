@@ -11,3 +11,8 @@ body {
   max-height: 65vh;
 }
     
+.footer {
+  padding: 10px;
+  background-color: rgba(52, 1, 100, 0.664);
+  
+}
