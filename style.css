@@ -5,7 +5,18 @@ body {
 }
 
 .carousel .carousel-inner img {
-  max-height: 65vh;
+  max-height: 70vh;
+  width: auto;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 1000px) {
+  .carousel .carousel-inner img {
+    max-height: auto ;
+    max-width: 100%;
+  }
 }
 
 .footer {
@@ -84,9 +95,9 @@ body {
   font-size: 4rem;
 }
 
-#carouselExampleIndicators {
+/* #carouselExampleIndicators {
   box-shadow: 5px 5px 20px #503845;
-}
+} */
 #carouselExampleCaptions {
   box-shadow: 0 10px 7px -2px #6d4b8e;
 }
