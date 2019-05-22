@@ -3,16 +3,44 @@ body {
   color: #fff;
 }
 
-.main {
+/* .main {
   height: 100px;
-}
+} */
 
-.carousel .carousel-inner  img {
+.carousel .carousel-inner img {
   max-height: 65vh;
 }
-    
+
 .footer {
-  padding: 10px;
+  padding: 20px;
   background-color: rgba(52, 1, 100, 0.664);
-  
+  text-align: center;
+}
+
+.footer p {
+}
+
+.section {
+  min-height: 25vh;
+  position: relative;
+}
+
+.section h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section .heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.section-2 {
+  background-color:rgba(91, 0, 177, 0.664)
+}
+
+.box{
+  padding: 20px;
 }
