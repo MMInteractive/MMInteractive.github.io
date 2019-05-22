@@ -3,10 +3,6 @@ body {
   color: #fff;
 }
 
-/* .main {
-  height: 100px;
-} */
-
 .carousel .carousel-inner img {
   max-height: 65vh;
 }
@@ -15,9 +11,6 @@ body {
   padding: 20px;
   background-color: rgba(52, 1, 100, 0.664);
   text-align: center;
-}
-
-.footer p {
 }
 
 .section {
@@ -41,10 +34,30 @@ body {
   background-color: rgba(91, 0, 177, 0.664);
 }
 
+.section-3 {
+  padding-top: 80px;
+}
+
+.section-4 {
+  background-color: #a74ffb;
+}
+
 .box {
   padding: 20px;
 }
 
 .gPlayStoreLink img {
   width: 90%;
+}
+
+.mail{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.mail a{
+  text-decoration: none;
+  font-size: 3rem;
+  color: #fff;
+  overflow-wrap: break-word;
 }
